@@ -1,0 +1,10 @@
+const os = require('os')
+const path = require('path')
+
+console.log(os.type())
+console.log(os.version())
+console.log(os.freemem())
+console.log(os.cpus())
+console.log("directory name:",__dirname)
+console.log("file name:",__filename)
+console.log("path name:",path.dirname(__filename))
